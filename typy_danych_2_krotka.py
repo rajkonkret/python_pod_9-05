@@ -9,6 +9,7 @@ print(type(tupla))
 print(type(tupla2))
 print(tupla3)
 print(type(tupla3))
+
 print(tupla.count("Tomek"))
 print(tupla.index("Asia"))
 asia = tupla[2]
