@@ -11,6 +11,7 @@ with open(filename, 'r') as csv_f:
     fields = next(csvreader)
     for row in csvreader:
         rows.append(row)
+    print("Suma wierszy", csvreader.line_num)
 
 print(fields)
 print(rows)
