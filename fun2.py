@@ -17,3 +17,4 @@ print(oblicz_vat(1000, 7))
 zm = oblicz_vat(1000)
 if zm == 1230.0:
     print("Prawidlowo")
+# 13:40
