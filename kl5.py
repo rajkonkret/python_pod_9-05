@@ -45,6 +45,7 @@ class Kura(Ptak):
     def wydaj_odglos(self):
         print("kokokokokoko")
 
+
 # @abstractmethod - powoduje, ze kalsa jest abstrakcyjna i nie mozna utworzyć obiektu klasy Ptak
 # orzel = Ptak("Orzeł", 20)
 # orzel.latam()
