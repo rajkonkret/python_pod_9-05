@@ -13,12 +13,14 @@ date = root.find('.//EffectiveDate').text
 rates = root.findall('.//Rate')
 print(date)
 print(table_name)
+
 for rate in rates:
     currency = rate.find('Currency').text
     code = rate.find('Code').text
     mid = rate.find('Mid').text
     print(f"{code}: {currency} - {mid}")
-# print(table_name)
-# print(currrency)
-# print(currrency[0])
-# print(date)
+# IDR: rupia indonezyjska - 0.00028126
+# INR: rupia indyjska - 0.050451
+# KRW: won południowokoreański - 0.003113
+# CNY: yuan renminbi (Chiny) - 0.5970
+# XDR: SDR (MFW) - 5.5706
