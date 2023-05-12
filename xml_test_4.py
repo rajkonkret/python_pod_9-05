@@ -20,6 +20,6 @@ def generateXML(filename):
     with open(filename, "wb") as file:
         tree.write(file)
 
-
+# uruchmia sie ta selcja tylko gdy ten plik jest uruchamainy bezpośrednio
 if __name__ == "__main__":
     generateXML("Catalog.xml")
